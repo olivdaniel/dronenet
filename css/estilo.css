@@ -1,0 +1,376 @@
+body{
+  width: 980px;
+  text-align: center;
+  margin: 25px 0 0 0px;
+  padding: 0 0 0 156px;
+}
+.banner{
+  position: relative;
+  bottom: 34px;
+  left: 357px;
+}
+.banner img{
+  position:absolute;
+}
+.banner img:last-child{
+  z-index: 1;
+  top: 34px;
+  left: -357px;
+}
+.banner img:first-child {
+  position: absolute;
+  top: -27px;
+  left: -329px;
+  z-index: 4;
+}
+.header{
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b8e99;
+  position: relative;
+  z-index:3;
+}
+.header ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.header li{
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header2{
+  height: 45px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #660000;
+  position: relative;
+  top: 352px;
+  z-index: 2;
+}
+.header2 li a:hover{
+  background-color: white;
+  padding: 34px 10px 15px 10px;
+}
+.header2 a:hover{
+  color: #660000;
+}
+.header2 ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.header2 li{
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+}
+.header2 a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.produtos{
+  transform: translateY(-38%);
+}
+.home{
+  transform: translateY(-50%);
+}
+li a:hover{
+  background-color: #92c9ce;
+  padding: 22px;
+}
+.my-element:hover {
+  background-color: #92c9ce;
+  padding: 12px;
+}
+.my-element:hover br {
+  display: block;
+  content: " ";
+  margin: 0.5em 0;
+}
+.my-element:hover div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.my-element2:hover{
+  background-color: white;
+  padding: 21px 15px 21px;
+}
+.my-element2:hover br{
+  display: block;
+  content: " ";
+  margin: 0.5em 0;
+}
+.my-element2:hover div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.loja_virtual{
+  position: relative;
+  top: 380px;
+  left: 10px;
+  text-align: left;
+  color: #660000;
+}
+.loja_virtual h2{
+  margin-bottom: -5px;
+  text-transform: uppercase;
+}
+.loja_virtual hr{
+  width: 845px;
+  margin-left: 0;
+  height: 0px;
+  position: relative;
+  left: 0;
+}
+.loja_virtual img{
+  width: 125px;
+  height: 77px;
+  bottom: 70px;
+  position: relative;
+  left: 847px;
+}
+.box h4{
+  margin-bottom: 0px;
+  margin-top: 3px;
+  background-color: #ddeff2;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #1b8e99;
+  font-family: tahoma;
+  font-size: 15px;
+}
+.box2 h4{
+  background-color: #e9dadd;
+  color: #660000;
+}
+.container, .segunda-container, .terceira-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 315px;
+}
+.segunda-container{
+  margin-top: -50px;
+}
+.box1, .box3 {
+  border: 2px solid #00b8ff9e;
+}
+.box4, .box6{
+  border: 2px solid #1b8e99;
+}
+.box2, .box5{
+  border: 2px solid #6c2424a8;
+}
+.box {
+  text-align: center;
+  margin-top: -1px;
+  position: relative;
+  left: 10px;
+  margin-right: 10px;
+}
+.box1 img
+.box2 img
+.box3 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.box p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 5px;
+  text-align: left;
+  padding-left: 18px;
+  color: #00b8ff;
+  padding-right: 22px;
+  font-family: tahoma;
+}
+.box2 p{
+  color: #660000;
+}
+.box4 img, .box5 img, .box6 img {
+  background-color: white;
+  float: right;
+  margin: 21px;
+  width: auto;
+  height: 55px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+.box4 h3, .box5 h3, .box6 h3 {
+  color: white;
+  font-size: 30px;
+  margin-top: 28px;
+  margin-bottom: -11px;
+  text-align: justify;
+  font-family: Tahoma;
+  position: relative;
+  left: 15px;
+  font-weight: 400;
+}
+.box4 p, .box5 p, .box6 p {
+  color: white;
+  position: relative;
+  right: 2px;
+  font-family: tahoma;
+  text-align: justify;
+}
+body hr{
+  position: relative;
+  left: 10px;
+  margin-right: 10px;
+  height: 20px;
+  margin-top: 15px;
+}
+.servicos h2{
+  text-align: left;
+  position: relative;
+  left: 10px;
+  margin-bottom: -10px;
+  font-family: Arial;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #1c8e99;
+  margin-top: 45px;
+}
+.servicos hr{
+  height: 0px;
+  margin-right: 125px;
+}
+.servicos img{
+  position: relative;
+  bottom: 60px;
+  left: 445px
+}
+.box7{
+  text-align: center;
+  margin-top: -1px;
+  position: relative;
+  left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 400px;
+  border:solid #660000;
+  border-bottom-width: 10px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 2px;
+}
+.box9{
+  border:solid #1b8d99;
+  border-bottom-width: 10px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 2px;
+}
+.box7 p {
+  font-family: Tahoma;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box8 p, .box10 p{
+  color: #660000;
+}
+.box9 p{
+  color: #1b8d99;
+}
+.box7 h5{
+  font-family: Tahoma;
+  font-size: 17px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #660000;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.box9 h5{
+  color: #1b8d99;
+}
+.terceira-container{
+  margin-top: -5px;
+}
+.drone1 img, .drone2 img, .drone3 img{
+  position: relative;
+  right: 0px;
+}
+.drone3 img{
+  right: 130px;
+}
+.imgdoprofessorbortola img{
+  position: absolute;
+  left: 1015px;
+  z-index: 3;
+  top: 1580px;
+}
+.banner1{
+  height: 98px;
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b8e99;
+  z-index: 1;
+}
+.banner1 p{
+  font-family: tahoma, verdana;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 155px;
+  margin-left: 150px;
+}
+.banner1 img{
+  margin-left: 15px;
+}
+.header3{
+  width: 980px;
+  height: 26px;
+  z-index: 2;
+  background-color: #660000;
+}
+.header3 p{
+  color: white;
+  font-size: 14px;
+  font-family: tahoma, verdana;
+  text-align: right;
+  position: relative;
+  right: 110px;
+  bottom: 10px;
+}
